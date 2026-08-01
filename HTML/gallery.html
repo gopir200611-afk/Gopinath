@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.gallery{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:20px;
+
+padding:40px;
+
+}
+
+.gallery img{
+
+width:100%;
+
+border-radius:15px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1 style="text-align:center;">Our Gallery</h1>
+
+<div class="gallery">
+
+<img src="images/1.jpg">
+
+<img src="images/2.jpg">
+
+<img src="images/3.jpg">
+
+<img src="images/4.jpg">
+
+<img src="images/5.jpg">
+
+<img src="images/6.jpg">
+
+</div>
+
+<script>
+
+document.querySelectorAll("img").forEach(img=>{
+
+img.onclick=()=>{
+
+window.open(img.src);
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">

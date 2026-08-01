@@ -1,0 +1,13 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /admin/
+
+Disallow: /uploads/
+
+Disallow: /completed/
+
+Sitemap: https://yourdomain.com/sitemap.xml
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">

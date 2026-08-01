@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SK GOPI VFX</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">SK GOPI VFX</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+<a href="order.html" class="btn">Order Now</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>Professional Photo & Video Editing</h1>
+
+<p>
+Birthday | Wedding | Festival | AI Photo Edit |
+Video Editing | Banner Design
+</p>
+
+<a href="order.html" class="hero-btn">
+Place Order
+</a>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="container">
+
+<div class="card">
+<h3>Photo Editing</h3>
+<p>HD & AI Photo Editing</p>
+</div>
+
+<div class="card">
+<h3>Video Editing</h3>
+<p>Cinematic Reels & Videos</p>
+</div>
+
+<div class="card">
+<h3>Poster Design</h3>
+<p>Festival & Birthday Posters</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About SK GOPI VFX</h2>
+
+<p>
+We provide professional photo editing, video editing,
+cinematic reels, AI editing, posters and social media designs.
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>WhatsApp: +91 6374851763 </p>
+<p>instagram id:  sk_gopi__vfx</p>
+
+</section>
+
+<footer>
+
+<p>© 2026  SK GOPI VFX. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Place Order</title>
+
+<link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>SK GOPI VFX Order Form</h1>
+
+<form action="submit.php" method="POST" enctype="multipart/form-data">
+
+<input type="text" name="name" placeholder="Full Name" required>
+
+<input type="email" name="email" placeholder="Email" required>
+
+<input type="text" name="phone" placeholder="WhatsApp Number" required>
+
+<select name="service">
+
+<option>Photo Editing</option>
+<option>Video Editing</option>
+<option>Poster Design</option>
+<option>AI Photo Edit</option>
+<option>BANNER EDITING</option>
+
+</select>
+
+<textarea
+name="details"
+placeholder="Describe your editing requirements"></textarea>
+
+<label>Upload Files</label>
+
+<input type="file" name="files[]" multiple>
+
+<label>Payment Screenshot</label>
+
+<input type="file" name="payment">
+
+<button type="submit">
+Submit Order
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
+
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
